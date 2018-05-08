@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jul  9 16:22:03 2017
-
-@author: amirali
-"""
-
-#%%
-
 class Heap(object):
     
     def __init__(self, size):
@@ -116,5 +106,4 @@ while heap:
 
 print(nums)    
 heapify(nums)
-print(nums)
-     
+print(nums)     
