@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul  4 17:19:41 2017
-
-@author: amirali
-"""
-##############################
-### AVL Binary Search Tree ###
-##############################
-
 class Node(object):
     
     def __init__(self, data):
@@ -272,5 +261,3 @@ print("Min =", ATA.getMinValue())
 print("Max =", ATA.getMaxValue())
 print("Sorted: ", end='')
 print(ATA.traverse(), end='')
-
-    
