@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 17 17:44:22 2017
-
-@author: amirali
-"""
-
 #%% Quick Sort
 
 def quickSort(list, lowIndex, highIndex):
