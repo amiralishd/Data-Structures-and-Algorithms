@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 10 12:21:45 2017
-
-@author: amirali
-"""
-
-#%%
 class HashTable(object):
     
     def __init__(self, size):
@@ -60,6 +51,3 @@ fruits.insert('banana',7)
 print(fruits.get('apple'))
 print(fruits.get('orange'))
 print(fruits.get('watermelon'))
-        
-
-        
