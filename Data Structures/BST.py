@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul  4 17:19:41 2017
-
-@author: amirali
-"""
-##########################
-### Binary Search Tree ###
-##########################
-
 class Node(object):
     
     def __init__(self, data):
@@ -173,5 +162,3 @@ print("Min =", Asb.getMinValue())
 print("Max =", Asb.getMaxValue())
 print("IOT: ", end='')
 print(Asb.traverse(), end='')
-
-    
