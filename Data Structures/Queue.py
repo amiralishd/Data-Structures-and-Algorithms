@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  3 23:24:29 2017
-
-@author: amirali
-"""
-
 class Queue(object):
     
     def __init__(self):
