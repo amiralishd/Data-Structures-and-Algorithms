@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  3 23:00:08 2017
-
-@author: amirali
-"""
-
 class Stack(object):
     
     def __init__(self):
@@ -39,5 +31,4 @@ print('Haji = ', Haji.stack)
 print('Pop = ', Haji.pop())
 print('Size = ', Haji.sizeStack())
 print('Peek = ', Haji.peek())
-print('Size = ', Haji.sizeStack())
-        
+print('Size = ', Haji.sizeStack())  
