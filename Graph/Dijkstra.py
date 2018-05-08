@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 17 10:05:02 2017
-
-@author: amirali
-"""
-
 import math
 import heapq
 
@@ -112,6 +104,4 @@ vertexList = (V1, V2, V3, V4, V5, V6, V7, V8);
 
 myAlg = Dijkstra();
 myAlg.calcShortestPath(vertexList, V1);
-myAlg.getShortestPath(V4);      
-        
-        
+myAlg.getShortestPath(V4);
