@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 17 17:22:49 2017
-
-@author: amirali
-"""
-#%% Buuble Sort
-
 def BubbleSort(list):
     # loop of [len(list)-1] times
     for i in range(0,len(list)-1):
