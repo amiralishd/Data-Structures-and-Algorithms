@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 17 22:45:33 2017
-
-@author: amirali
-"""
-#%% Insertion Sort
-
 def insertionSort(list):
     # goes over all items
     for i in range(0, len(list)):
