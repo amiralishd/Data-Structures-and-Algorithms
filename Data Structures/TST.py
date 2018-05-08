@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 10 12:48:19 2017
-
-@author: amirali
-"""
-#%%
-
 class Node(object):
 
     def __init__(self, character):
@@ -79,17 +70,4 @@ fruits.insert('banana',7)
 
 print(fruits.get('apple'))
 print(fruits.get('orange'))
-print(fruits.get('watermelon'))      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+print(fruits.get('watermelon'))
