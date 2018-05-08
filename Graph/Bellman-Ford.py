@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 17 12:07:30 2017
-
-@author: amirali
-"""
-
 import math
 
 class Vertex(object):
@@ -110,6 +102,4 @@ edgeList = (E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11,E12,E13,E14,E15,E16)
 
 myAlg = BellmanFord()
 myAlg.calcShortestPath(vertexList, edgeList, V1)
-myAlg.getShortestPath(V7)     
-        
-        
+myAlg.getShortestPath(V7)
