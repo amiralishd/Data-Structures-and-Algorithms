@@ -56,52 +56,52 @@ class Dijkstra(object):
         
   #%% Testing
 
-V1 = Vertex("A");
-V2 = Vertex("B");
-V3 = Vertex("C");
-V4 = Vertex("D");
-V5 = Vertex("E");
-V6 = Vertex("F");
-V7 = Vertex("G");
-V8 = Vertex("H");
+V1 = Vertex("A")
+V2 = Vertex("B")
+V3 = Vertex("C")
+V4 = Vertex("D")
+V5 = Vertex("E")
+V6 = Vertex("F")
+V7 = Vertex("G")
+V8 = Vertex("H")
 
-E1 = Edge(5,V1,V2);
-E2 = Edge(8,V1,V8);
-E3 = Edge(9,V1,V5);
-E4 = Edge(15,V2,V4);
-E5 = Edge(12,V2,V3);
-E6 = Edge(4,V2,V8);
-E7 = Edge(7,V8,V3);
-E8 = Edge(6,V8,V6);
-E9 = Edge(5,V5,V8);
-E10 = Edge(4,V5,V6);
-E11 = Edge(20,V5,V7);
-E12 = Edge(1,V6,V3);
-E13 = Edge(13,V6,V7);
-E14 = Edge(3,V3,V4);
-E15 = Edge(11,V3,V7);
-E16 = Edge(9,V4,V7);
+E1 = Edge(5,V1,V2)
+E2 = Edge(8,V1,V8)
+E3 = Edge(9,V1,V5)
+E4 = Edge(15,V2,V4)
+E5 = Edge(12,V2,V3)
+E6 = Edge(4,V2,V8)
+E7 = Edge(7,V8,V3)
+E8 = Edge(6,V8,V6)
+E9 = Edge(5,V5,V8)
+E10 = Edge(4,V5,V6)
+E11 = Edge(20,V5,V7)
+E12 = Edge(1,V6,V3)
+E13 = Edge(13,V6,V7)
+E14 = Edge(3,V3,V4)
+E15 = Edge(11,V3,V7)
+E16 = Edge(9,V4,V7)
 
-V1.adjList.append(E1);
-V1.adjList.append(E2);
-V1.adjList.append(E3);
-V2.adjList.append(E4);
-V2.adjList.append(E5);
-V2.adjList.append(E6);
-V8.adjList.append(E7);
-V8.adjList.append(E8);
-V5.adjList.append(E9);
-V5.adjList.append(E10);
-V5.adjList.append(E11);
-V6.adjList.append(E12);
-V6.adjList.append(E13);
-V3.adjList.append(E14);
-V3.adjList.append(E15);
-V4.adjList.append(E16);
+V1.adjList.append(E1)
+V1.adjList.append(E2)
+V1.adjList.append(E3)
+V2.adjList.append(E4)
+V2.adjList.append(E5)
+V2.adjList.append(E6)
+V8.adjList.append(E7)
+V8.adjList.append(E8)
+V5.adjList.append(E9)
+V5.adjList.append(E10)
+V5.adjList.append(E11)
+V6.adjList.append(E12)
+V6.adjList.append(E13)
+V3.adjList.append(E14)
+V3.adjList.append(E15)
+V4.adjList.append(E16)
 
 
-vertexList = (V1, V2, V3, V4, V5, V6, V7, V8);
+vertexList = (V1, V2, V3, V4, V5, V6, V7, V8)
 
-myAlg = Dijkstra();
-myAlg.calcShortestPath(vertexList, V1);
-myAlg.getShortestPath(V4);
+myAlg = Dijkstra()
+myAlg.calcShortestPath(vertexList, V1)
+myAlg.getShortestPath(V4)
