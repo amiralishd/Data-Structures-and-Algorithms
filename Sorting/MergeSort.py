@@ -1,4 +1,5 @@
 #%% Merge Sort
+
 def mergeSort(list):
 ########## DIVIDE PART ########## 
     # recursion base   
