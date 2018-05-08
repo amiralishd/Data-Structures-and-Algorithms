@@ -1,3 +1,5 @@
+#%% Insertion Sort
+
 def insertionSort(list):
     # goes over all items
     for i in range(0, len(list)):
