@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 18 10:20:14 2017
-
-@author: amirali
-"""
-
-#%% KRUSKAL
-
 class Vertex(object):
     
     def __init__(self, name):
