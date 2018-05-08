@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 18 14:38:20 2017
-
-@author: amirali
-"""
-
 #%% Merge Sort
 def mergeSort(list):
 ########## DIVIDE PART ########## 
