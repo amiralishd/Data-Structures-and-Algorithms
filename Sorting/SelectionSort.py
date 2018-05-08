@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 17 21:51:57 2017
-
-@author: amirali
-"""
-
 #%% Selection Sort
 
 def selectionSort(list):
@@ -29,5 +21,4 @@ def selectionSort(list):
 #%% Testing
       
 myList = [ -4, 6, 8, 1, 0, 10, 9, 5, -14]
-selectionSort(myList)
-        
+selectionSort(myList)     
