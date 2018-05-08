@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jul 12 00:38:57 2017
-
-@author: amirali
-"""
-#%%
-
 class Node(object):
     
     def __init__(self, name):
